@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Website Kesehatan</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet" />
+  <!-- Feather Icon -->
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <!-- bootsrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" />
+  
+</head>
+
+<body>
+  <!-- Boostrap -->  
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Hallo <span> Sehat</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link mx-lg-2 active" aria-current="page" href="#" style="color: #1a6d42;">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-lg-2" href="#tentang">TENTANG</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  mx-lg-2" href="#layanan">LAYANAN</a>
+          </li><li class="nav-item">
+            <a class="nav-link  mx-lg-2" href="#produk">PRODUK</a>
+          </li><li class="nav-item">
+            <a class="nav-link  mx-lg-2" href="#kontak">KONTAK</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- Navbar END -->
+
+<!-- home Section 1 -->
+<section class="hero" id="home">
+  <main class="content">
+    <h1>Kesehatan Adalah Yang <span>Utama</span></h1>
+    <p>
+      Gaya hidup serba cepat, makanan instan, dan kurangnya aktivitas fisik
+      sering kali membuat tubuh rentan terhadap berbagai penyakit.
+    </p>
+    <br>
+    <div class="daftar">
+      <button><a href="form2.html" target="_blank" class="cta">Pendaftaran</a></button>
+    </div>
+  </main>
+</section>
+<!-- Home Section 1 end -->
+
+<!-- tentang Section 2 -->
+ <section id="tentang" class="tentang">
+    <h2>Tentang Kesehatan</h2>
+    <div class="raw">
+  <div class="vidio">
+    <video src="Video Edukasi.mp4" controls autoplay></video>
+  </div>
+  <div class="content">
+      <h3>Kesehatan Itu Penting</h3>
+        <p>
+          Kesehatan tidak hanya berkaitan dengan kondisi fisik, tetapi juga mencakup kesehatan mental dan sosial. Tubuh
+          yang kuat tanpa pikiran yang tenang belum bisa disebut benar-benar sehat. Karena itu, menjaga keseimbangan
+          antara fisik, mental, dan sosial menjadi kunci utama menuju hidup yang sehat.
+        </p>
+        <p>
+          Kesehatan adalah harta yang tidak ternilai. Oleh karena itu, kita harus menjaganya dengan penuh kesadaran dan
+          tanggung jawab. Mulailah dari hal kecil — makan sehat, cukup tidur, dan berolahraga. Ingat, menjaga kesehatan
+          hari ini adalah investasi untuk masa depan yang lebih baik. Karena tanpa kesehatan, semua hal yang kita miliki
+          tidak akan berarti.
+        </p>
+  </div>
+  </div>
+  </section>
+<!-- tentang Section 2 End -->
+
+<!-- Slider -->
+ <h1>Gaya Hidup Sehat</h1>
+ <div class="slider">
+ <div class="slider-container">
+        <div class="slider-wrapper" id="sliderWrapper">
+            <img src="Tidur Cukup.jpeg" alt="Gambar 1" class="slider-item">
+            <img src="People 4 Kesehatan.jpeg" alt="Gambar 2" class="slider-item">
+            <img src="People Aktivitas.jpeg" alt="Gambar 3" class="slider-item">
+            <img src="Makanan gizi seimbang.jpeg" alt="Gambar 4" class="slider-item">
+        </div>
+
+        <button class="prev-button" onclick="prevSlide()">&#10094;</button>
+        <button class="next-button" onclick="nextSlide()">&#10095;</button>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+ <!-- slider end -->
+ 
+<!-- layanan section -->
+  <section id="layanan" class="layanan">
+    <h3>Layanan Kami</h3>
+  </section>
+
+  <section id="services">
+    <div class="container">
+      <h2>Layanan Kami</h2>
+      <p style="color:var(--card);margin-bottom: 10px;font-size: 1.3rem;">Kami menyediakan 6 layanan kesehatan sederhana yang membantu menjaga kebugaran dan kesehatan
+        dasar.</p>
+      <div class="detail-page">
+        <button><a href="layanan.html" target="_blank" class="page">layanan detail</a></button>
+      </div>
+
+
+      <div class="grid-3">
+        <div class="service">
+          <h3 style=" color:var(--primary2);font-size: 1.3rem; font-weight: 600;">Pemeriksaan Kesehatan Ringkas</h3>
+          <p style="color:var(--primary2);margin-bottom:8px;font-size: 1.3rem;text-align: justify;">Pemeriksaan tekanan darah, BMI, dan saran singkat dari
+            tenaga kesehatan.</p>
+          <ul style="padding-left:18px;color:var(--primary2);font-size: 1.3rem;">
+            <li>Tekanan darah</li>
+            <li>Pengukuran BMI</li>
+            <li>Konsultasi singkat</li>
+          </ul>
+        </div>
+
+        <div class="service">
+          <h3 style=" color:var(--primary2);font-size: 1.3rem; font-weight: 600;">Panduan Nutrisi</h3>
+          <p style="color:var(--primary2);margin-bottom:8px;font-size: 1.3rem;text-align: justify;">Panduan pola makan seimbang untuk pelajar dan pekerja.</p>
+          <p style="margin:0;color:var(--primary2);font-size: 1.3rem;">Contoh: sarapan bergizi, cemilan sehat, porsi seimbang.</p>
+        </div>
+
+        <div class="service">
+          <h3 style=" color:var(--primary2);font-size: 1.3rem;font-weight: 600;">Program Olahraga Ringan</h3>
+          <p style="color:var(--primary2);margin-bottom:8px;font-size: 1.3rem;text-align: justify;">Latihan ringan yang bisa dilakukan di rumah tanpa alat.</p>
+          <ol style="padding-left:18px;color:var(--primary2);margin:0;font-size: 1.3rem;">
+            <li>Pemanasan 5 menit</li>
+            <li>Latihan inti 20 menit</li>
+            <li>Peregangan 5 menit</li>
+          </ol>
+        </div>
+
+        <div class="service">
+          <h3 style=" color:var(--primary2);font-size: 1.3rem; font-weight: 600;">Konsultasi Gizi dan Ahli Diet</h3>
+          <p style="color:var(--primary2);margin-bottom:8px;font-size: 1.3rem;text-align: justify;">Memberikan rekomendasi spesifik tentang nutrisi, porsi makan, pilihan makanan, dan cara mencapai atau mempertahankan berat badan yang sehat</p>
+        </div>
+
+        <div class="service">
+          <h3 style=" color:var(--primary2);font-size: 1.3rem;font-weight: 600;">Konseling Kesehatan Mental dan Manajemen Stres</h3>
+          <p style="color:var(--primary2);margin-bottom:8px;font-size: 1.3rem;text-align: justify;">Mengajarkan teknik relaksasi, strategi koping yang sehat, dan membantu Anda memahami dan mengelola emosi Anda untuk mencapai keseimbangan hidup</p>
+        </div>
+
+        <div class="service">
+          <h3 style=" color:var(--primary2);font-size: 1.3rem;font-weight: 600;">Pelatihan Kebugaran dan Fisioterapi</h3>
+          <p style="color:var(--primary2);margin-bottom:8px;font-size: 1.3rem;text-align: justify;">Layanan ini berfokus pada aspek aktivitas fisik dari pola hidup sehat, sering kali dengan panduan dari pelatih pribadi atau fisioterapis.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  </section>
+  <!-- Layanan Section end -->
+
+  <!-- produk section -->
+   <section class="produk" id="produk">
+    <header>
+        <h1>Produk Kami</h1>
+    </header>
+
+    <div class="product-grid">
+        <div class="product-card">
+            <div class="product-image-container">
+                <img src="Vitamin.jpeg" alt="Nama Produk 1" class="product-image">
+            </div>
+            <h3 class="product-name">VITAMIN C</h3>
+            <p class="product-price">Rp 50.000</p>
+            <button class="buy-button">Beli Sekarang</button>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image-container">
+                <img src="Obat 1.jpeg" alt="Nama Produk 2" class="product-image">
+            </div>
+            <h3 class="product-name">SUPLEMEN PROTEIN</h3>
+            <p class="product-price">Rp 150.000</p>
+            <button class="buy-button">Beli Sekarang</button>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image-container">
+                <img src="Obat Flu.jpg" alt="Nama Produk 3" class="product-image">
+            </div>
+            <h3 class="product-name">OBAT FLU</h3>
+            <p class="product-price">Rp 30.000</p>
+            <button class="buy-button">Beli Sekarang</button>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image-container">
+                <img src="Masker kesehatan.jpg" alt="Nama Produk 4" class="product-image">
+            </div>
+            <h3 class="product-name">MASKER KESEHATAN</h3>
+            <p class="product-price">Rp 25.000</p>
+            <button class="buy-button">Beli Sekarang</button>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image-container">
+                <img src="betadine.jpeg" alt="Nama Produk 1" class="product-image">
+            </div>
+            <h3 class="product-name">BETADINE</h3>
+            <p class="product-price">Rp 10.000</p>
+            <button class="buy-button">Beli Sekarang</button>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image-container">
+                <img src="Minyak Kayu Putih.jpeg" alt="Nama Produk 2" class="product-image">
+            </div>
+            <h3 class="product-name">MINYAK KAYU PUTIH</h3>
+            <p class="product-price">Rp 7.000</p>
+            <button class="buy-button">Beli Sekarang</button>
+        </div>
+    </div>
+   </section>
+   <!-- produk section end -->
+
+   <!-- kontak section -->
+    <div class="container-kontak" id="kontak">
+      <h1>Kontak Kami</h1>
+    </div>
+    <div class="kontak">
+      <div class="left-column">
+        <h2>Kontak Kami</h2>
+        <div class="address-info">
+          <p>
+            <strong>Alamat:</strong>
+            Jl. Swadarma Raya No.58, Ulujami, Kec. Pesanggrahan, Kota Jakarta
+            Selatan, Daerah Khusus Ibukota Jakarta 12250
+          </p>
+          <p>
+            <strong>Telepon:</strong>
+            (021) 555-1234
+          </p>
+          <p>
+            <strong>Email:</strong>
+            info@hallosehat.com
+          </p>
+          <p>
+            <strong>Buka:</strong>
+            Senin - Sabtu, 09:00 - 17:00 WIB
+          </p>
+        </div>
+      </div>
+
+      <div class="right-column">
+        <iframe
+          class="map-iframe"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.25523803236!2d106.75826387441012!3d-6.230043661011039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f1f55c77145d%3A0x1e2ed99435c9cd21!2sTANRI%20ABENG%20UNIVERSITY!5e0!3m2!1sen!2sid!4v1763101793528!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+    <!-- kontak section end -->
+
+    <!-- footer -->
+      <footer>
+    <div class="sosial">
+      <a href="https://www.instagram.com/duniakesehatan.co.id?igsh=MWw2dzk4OG13MDJ5dg=="><i data-feather="instagram"></i></a>
+      <a href=" https://x.com/HealthNewsID?t=OZrskzwIfNufgI4_Ux017g&s=08"><i data-feather="twitter"></i></a>
+      <a href="https://www.facebook.com/groups/358199860947689/?ref=share&mibextid=NSMWBT"><i data-feather="facebook"></i></a>
+      <a href="https://youtu.be/_50igeHW7vw?si=ww-zdKlSlpV9oOVy"><i data-feather="youtube"></i></a>
+    </div>
+
+    <div class="links">
+      <a href="#home">home</a>
+      <a href="#tentang">tentang kami</a>
+      <a href="#layanan">layanan kami </a>
+      <a href="#kontak">kontak </a>
+    </div>
+
+    <div class="credit">
+      <p>created by <a href="">Kelompok 3</a>. | &copy;2025</p>
+    </div>
+  </footer>
+  <!-- Feather Icon -->
+  <script>
+    feather.replace();
+  </script>
+</body>
+</html>
