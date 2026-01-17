@@ -25,6 +25,7 @@ body {
 
         .article-card {
             background: #fff;
+            text-align: center;
             color: #333;
             padding: 25px;
             border-radius: 12px;
@@ -51,4 +52,5 @@ body {
             padding: 20px;
             text-align: center;
             color: #e8f5e9;
+
         } 
