@@ -1,56 +1,83 @@
 body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #27ae60; /* Background hijau */
-            color: white;
-        }
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #27ae60; /* background hijau */
+    color: white;
+    text-align: center;
+}
 
-        header {
-            padding: 40px 20px;
-            text-align: center;
-            background: #219150;
-        }
+/* HEADER */
+header {
+    padding: 40px 20px;
+    background: #219150;
+}
 
-        header h1 {
-            font-size: 36px;
-            margin: 0;
-        }
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
 
-        .container {
-            padding: 30px 20px;
-            display: flex;
-            flex-direction: column;
-            gap: 30px;
-        }
+/* CONTAINER */
+.container {
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* card di tengah */
+    gap: 30px;
+}
 
-        .article-card {
-            background: #fff;
-            color: #333;
-            padding: 25px;
-            border-radius: 12px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.25);
-        }
+/* CARD */
+.article-card {
+    background: #ffffff;
+    color: #333;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+    width: 90%;
+    max-width: 900px; /* biar rapi di layar besar */
+    text-align: left;
+}
 
-        .article-card h2 {
-            margin-top: 0;
-            color: #2ecc71;
-        }
+/* JUDUL */
+.article-card h2 {
+    color: #2ecc71;
+    margin-bottom: 15px;
+}
 
-        .article-card h3 {
-            margin-bottom: 5px;
-            color: #27ae60;
-        }
+.article-card h3 {
+    color: #27ae60;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
 
-        ul {
-            margin-top: 10px;
-        }
+/* PARAGRAF */
+.article-card p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
 
-        footer {
-            margin-top: 40px;
-            background: #1b7d45;
-            padding: 20px;
-            text-align: center;
-            color: #e8f5e9;
+/* LIST */
+.article-card ul {
+    list-style-position: inside;
+    padding: 0;
+    margin-top: 10px;
+}
 
-        } 
+.article-card ul li {
+    margin-bottom: 6px;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 40px;
+    background: #1b7d45;
+    padding: 20px;
+    text-align: center;
+    color: #e8f5e9;
+}
+
+
+
+
+
 
